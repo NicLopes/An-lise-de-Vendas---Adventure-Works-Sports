@@ -1,14 +1,14 @@
-🏪 # Análise de Vendas - Adventure Works Sports
+# 🏪 Análise de Vendas - Adventure Works Sports
 Análise exploratória de dados de uma empresa de artigos esportivos, cobrindo o período de 2014 a 2016. O projeto integra quatro datasets (vendas, produtos, clientes e territórios) e explora dimensões de produto, geografia e sazonalidade, com foco em insights orientados a negócio.
 
-🛠️ # Ferramentas e Tecnologias
+# 🛠️ Ferramentas e Tecnologias
 
 Python — Pandas, Plotly Express, Plotly Graph Objects, Matplotlib
 Jupyter Notebook
 Excel — fonte dos dados brutos
 
 
-📂 # Estrutura do Projeto
+# 📂 Estrutura do Projeto
 analise_sport/
 │
 ├── analise_sport.ipynb       # Notebook principal com análises e visualizações
@@ -18,7 +18,7 @@ analise_sport/
 ├── Territories.xlsx          # Regiões e países
 └── README.md
 
-🔧 Etapas de Limpeza e Preparação
+# 🔧 Etapas de Limpeza e Preparação
 
 Tratamento de valores nulos por categoria: preenchimento com "Unknown", "Not Specified" e "No description" conforme contexto
 Imputação de valores numéricos ausentes (StandardCost, ListPrice) pela mediana
@@ -27,7 +27,7 @@ Remoção de colunas irrelevantes para a análise
 Criação de colunas derivadas: Profit, Margem_%, Month, Year
 
 
-📊 # Análises Desenvolvidas
+# 📊  Análises Desenvolvidas
 ## Produto
 
 Top 10 produtos por faturamento com escala de margem de lucro
@@ -47,7 +47,7 @@ Mês de maior faturamento por ano
 Top 10 dias com maior volume de vendas
 
 
-📌 ## Principais Insights
+## 📌  Principais Insights
 
 Estados Unidos e Austrália concentram 62,9% do faturamento total, evidenciando distribuição geográfica desigual da receita
 2016 registrou recuperação expressiva após retração em 2015, com forte sazonalidade no último trimestre do ano
